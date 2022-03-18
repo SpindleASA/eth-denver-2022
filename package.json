@@ -1,0 +1,57 @@
+{
+  "name": "eth-denver-2022",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm run build",
+    "start": "node server.js",
+    "serve": "vue-cli-service serve",
+    "build": "npm run scss:compile && vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "scss:watch:dark": "node-sass --watch src/assets/scss/dark_theme/custom.scss public/css/dark_theme.css",
+    "scss:watch:light": "node-sass --watch src/assets/scss/light_theme/custom.scss public/css/light_theme.css",
+    "scss:compile": "node-sass src/assets/scss/dark_theme/custom.scss public/css/dark_theme.css && node-sass src/assets/scss/light_theme/custom.scss public/css/light_theme.css"
+  },
+  "dependencies": {
+    "@json-rpc-tools/utils": "^1.7.6",
+    "@randlabs/myalgo-connect": "^1.1.2",
+    "@walletconnect/client": "^1.7.1",
+    "algorand-walletconnect-qrcode-modal": "^1.6.1",
+    "algosdk": "^1.13.1",
+    "axios": "^0.26.1",
+    "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.8.3",
+    "connect-history-api-fallback": "^1.6.0",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "js-cookie": "^3.0.1",
+    "stream-browserify": "^3.0.0",
+    "vue": "^2.6.14",
+    "vue-i18n": "^8.26.7",
+    "vue-markdown": "^2.2.4",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2",
+    "vuex-persist": "^3.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "^5.0.3",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "node-sass": "^7.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

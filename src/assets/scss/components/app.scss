@@ -1,0 +1,96 @@
+.navbar {
+  box-shadow: 0px 0px 10px rgba(darken($background, 10%), 0.2);
+}
+
+body, #app {
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+body {
+  background: $background;
+  color: $black;
+}
+
+a.nav-link {
+  color: rgba($dark, 0.8) !important;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  box-sizing: border-box;
+  
+  @include hover() {
+    color: rgba($dark, 0.8) !important;
+    border-bottom: 3px solid rgba($dark, 0.3);
+  }
+}
+
+.btn, .nav-link {
+  font-weight: 500;
+}
+
+a.nav-link.router-link-exact-active {
+  border-bottom: 3px solid $primary;
+}
+
+a.nav-link.router-link-active:not(.sp-home-nav) {
+  border-bottom: 3px solid $primary;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.modal-header, .modal-footer, .form-control {
+  border-color: rgba($dark, 0.2);
+}
+
+.form-control, .form-control:focus {
+  color: $dark;
+}
+
+@include media-breakpoint-down(sm) {
+  .modal-dialog {
+    margin: $modal-dialog-margin auto;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar-nav {
+    align-items: stretch;
+    justify-content: center;
+  }
+  .navbar-collapse {
+    align-items: stretch;
+    justify-content: flex-end;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .navbar-nav .sp-wallet-connector {
+    margin-top: 1rem;
+  }
+}
+
+.sp-story-header-content {
+  background-color: rgba($background, 0.7);
+}
+
+.dropdown-item {
+  color: $dark;
+}
+
+.dropdown-menu {
+  max-height: 40vh;
+  overflow-y: auto;
+  min-width: max-content;
+}
+
+.dropdown-toggle::after {
+  margin-left: 1rem;
+}
