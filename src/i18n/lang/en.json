@@ -1,0 +1,100 @@
+{
+  "app": {
+    "title": "Spindle"
+  },
+  "misc": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "success": "Success",
+    "error": "Error",
+    "errorMessages": {
+      "pageNotFound": "Page not found",
+      "cancelled": "Transactions cancelled",
+      "underflow": "Asset underflow. Make sure you own the asset you want to send and contact the Spindle ASA Team for further help."
+    },
+    "successMessages": {
+      "transactions": "Transactions succeeded!"
+    }
+  },
+  "views": {
+    "home": {
+      "title": "Home",
+      "text": {
+        "spindle": "Begin your Story with Spindle!",
+        "algorand_1": "Bringing Experimental Fiction",
+        "algorand_2": "to the Algorand Blockchain",
+        "description": "Weaving randomization, illustration, and audience participation into fantastical narratives"
+      }
+    },
+    "stories": {
+      "title": "Stories",
+      "text": {
+        "chapters": "{chapters} Chapters"
+      },
+      "button": {
+        "first": "Read first",
+        "latest": "Read latest"
+      }
+    },
+    "story": {
+      "title": "Story",
+      "button": {
+        "back": "Back to stories",
+        "previous": "Previous chapter",
+        "next": "Next chapter"
+      }
+    },
+    "zine": {
+      "title": "Warp & Weft"
+    },
+    "error": {
+      "title": "Error"
+    },
+    "voting-cards": {
+      "title": "Cards & Voting",
+      "text": {
+        "connect": "Please connect your wallet to swap Voting Card ASAs."
+      }
+    }
+  },
+  "components": {
+    "zine": {
+      "viewer": {
+        "possession": "{assetAmount} in possession",
+        "connect": "Please connect your wallet to view your <i>Warp &amp; Weft</i> editions.",
+        "view": "View"
+      }
+    },
+    "voting": {
+      "sendCards": "Send Voting Cards",
+      "closed": "Voting closed",
+      "start": "Start of voting period: <b>{start}</b>",
+      "end": "End of voting period: <b>{end}</b>",
+      "copied": "Copied Wallet Address",
+      "noCards": "You do not own this voting card",
+      "connect": "Connect your wallet to vote",
+      "vote": "Vote {option}"
+    },
+    "cards": {
+      "buy": "Buy",
+      "sell": "Sell",
+      "receive": "Receive {amount} {currency}",
+      "pay": "Pay {amount} {currency}"
+    },
+    "misc": {
+      "walletConnector": {
+        "connect": "Connect Wallet",
+        "disconnect": "Disconnect Wallet",
+        "pera": "Pera Wallet",
+        "myalgo": "MyAlgo Wallet",
+        "options": "Options"
+      },
+      "peraSignModal": {
+        "sign": "Please open your wallet app to sign the transaction(s)."
+      },
+      "assetCard": {
+        "copied": "Copied Asset ID"
+      }
+    }
+  }
+}

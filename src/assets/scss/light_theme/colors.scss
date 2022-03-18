@@ -1,0 +1,14 @@
+/* Theme colors */
+$primary: #2d4d32;
+$secondary: #cfd387;
+$success: #10882c;
+$info: #108294;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #fcfcf8;
+$dark: #20201d;
+$white: $light;
+$black: $dark;
+
+/* Component colors */
+$background: darken($light, 7%);

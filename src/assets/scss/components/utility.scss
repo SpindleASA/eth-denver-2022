@@ -1,0 +1,46 @@
+.sp-max-content {
+  max-width: max-content !important;
+}
+
+.sp-text-small {
+  font-size: 14px;
+}
+
+.p-6, .pl-6, .px-6 {
+  padding-left: 5rem !important;
+}
+
+.p-6, .pr-6, .px-6 {
+  padding-right: 5rem !important;
+}
+
+.p-6, .pt-6, .py-6 {
+  padding-top: 5rem !important;
+}
+
+.p-6, .pb-6, .py-6 {
+  padding-right: 5rem !important;
+}
+
+
+.m-6, .ml-6, .mx-6 {
+  padding-left: 5rem !important;
+}
+
+.m-6, .mr-6, .mx-6 {
+  padding-right: 5rem !important;
+}
+
+.m-6, .mt-6, .my-6 {
+  padding-top: 5rem !important;
+}
+
+.m-6, .mb-6, .my-6 {
+  padding-right: 5rem !important;
+}
+
+@for $i from 1 through 9 {
+  .sp-fw-#{$i * 100} {
+    font-weight: $i * 100 !important;
+  }
+}
