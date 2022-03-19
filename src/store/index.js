@@ -6,6 +6,7 @@ import zine from './modules/zine';
 import stories from './modules/stories';
 import voting from './modules/voting';
 import cards from './modules/cards';
+import liquidity from './modules/liquidity';
 
 Vue.use(Vuex);
 
@@ -16,6 +17,7 @@ const store = new Vuex.Store({
     stories,
     voting,
     cards,
+    liquidity,
   },
   plugins: [secureStorage],
 });

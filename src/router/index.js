@@ -26,6 +26,11 @@ const routes = [
     component: () => import('../views/ZineView.vue'),
   },
   {
+    path: '/spindle-asa',
+    name: 'token',
+    component: () => import('../views/TokenView.vue'),
+  },
+  {
     path: '*',
     name: 'Error',
     // lazy-loading

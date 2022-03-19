@@ -33,7 +33,7 @@ export default {
     };
   },
   created() {
-    ['zine', 'stories', 'voting', 'cards'].forEach((storeModule) => {
+    ['zine', 'stories', 'voting', 'cards', 'liquidity'].forEach((storeModule) => {
       this.$store.dispatch(`${storeModule}/resetState`);
     });
   },
@@ -46,7 +46,7 @@ export default {
     ...mapState({
       isLoading: (state) => {
         // all modules that require a fullscreen loading overlay should be added here
-        return state.zine.isLoading || state.voting.isLoading || state.cards.isLoading;
+        return state.zine.isLoading || state.voting.isLoading || state.cards.isLoading || state.liquidity.isLoading;
       },
     }),
     routeName() {
@@ -69,6 +69,8 @@ export default {
 html,
 body {
   overflow: hidden;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 </style>
 <style scoped>

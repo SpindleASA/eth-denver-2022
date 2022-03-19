@@ -8,8 +8,11 @@
     "success": "Success",
     "error": "Error",
     "errorMessages": {
+      "popupTitle": "Pop-up blocked",
+      "popupDescr": "Your browser blocked the Wallet Connect pop-up. Please allow pop-ups for this site to avoid a need for confirmation.",
       "pageNotFound": "Page not found",
       "cancelled": "Transactions cancelled",
+      "failed": "Transactions failed",
       "underflow": "Asset underflow. Make sure you own the asset you want to send and contact the Spindle ASA Team for further help."
     },
     "successMessages": {
@@ -47,6 +50,9 @@
     "zine": {
       "title": "Warp & Weft"
     },
+    "token": {
+      "title": "Spindle ASA"
+    },
     "error": {
       "title": "Error"
     },
@@ -64,6 +70,20 @@
         "connect": "Please connect your wallet to view your <i>Warp &amp; Weft</i> editions.",
         "view": "View"
       }
+    },
+    "liquidity": {
+      "lastDistr": "Last distribution: <span class=\"sp-fw-700\">{timestamp}</span>",
+      "snapshot": "Snapshot time: <span class=\"sp-fw-700\">{timestamp}</span>",
+      "currBal": "Current balance: <span class=\"sp-fw-500\">{amount}</span> LP Token",
+      "avgBal": "Avg. balance: <span class=\"sp-fw-500\">{amount}</span> LP Token",
+      "rewards": "Rewards: <span class=\"sp-fw-700\">{amount}</span> YARN",
+      "rewardsPerToken": "YARN rewards per Liquidity Token:",
+      "send": "Send rewards",
+      "connect": "Please connect your wallet to distribute Liquidity Rewards to the community.",
+      "confirm": "Confirm YARN amount",
+      "confirmAmount": "You will send a total of <b>{amount} YARN</b> to <b>{wallets}</b> wallets.",
+      "failed": "{amount} transactions failed. You can see them in the CSV file that will download once you click OK.",
+      "success": "The distribution succeeded. A CSV with all the details will be downloaded once you click OK."
     },
     "voting": {
       "sendCards": "Send Voting Cards",

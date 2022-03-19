@@ -41,7 +41,7 @@
     >
       <h6 v-if="wallet">
         <span>{{ shortWallet[0] }}</span>
-        <SpindleIcon color="var(--black)" height="20px" />
+        <sp-icon height="20px" />
         <span>{{ shortWallet[1] }}</span>
       </h6>
       <b-button variant="outline-danger" class="m-1 w-100" @click="disconnectWallet()">{{
@@ -52,7 +52,6 @@
 </template>
 
 <script>
-import SpindleIcon from './Icon.vue';
 import MyAlgoConnect from '@randlabs/myalgo-connect';
 import WalletConnect from '@walletconnect/client';
 import QRCodeModal from 'algorand-walletconnect-qrcode-modal';
@@ -63,9 +62,6 @@ const myAlgoConnect = new MyAlgoConnect();
 
 export default {
   name: 'sp-wallet-connector',
-  components: {
-    SpindleIcon,
-  },
   props: {
     variant: {
       type: String,
