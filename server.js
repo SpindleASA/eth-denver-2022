@@ -15,8 +15,6 @@ app.use((req, res, next) => {
     }
     return next();
   } else {
-    res.header('Access-Control-Allow-Headers', '*');
-    res.header('Access-Control-Allow-Origin', '*');
     return next();
   }
 });
