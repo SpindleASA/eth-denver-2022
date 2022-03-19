@@ -40,7 +40,7 @@
         <div class="sp-markdown-wrapper">
           <VueMarkdown v-if="computedMarkdown">{{ computedMarkdown }}</VueMarkdown>
         </div>
-        <Voting v-if="currentChapter.voting" v-bind="currentChapter.voting" />
+        <Voting v-if="currentChapter.voting" v-bind="currentChapter.voting" :wallet="currentStory.wallet" />
         <div class="mt-4 d-flex">
           <b-button
             variant="link"
