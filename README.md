@@ -27,7 +27,7 @@ The Spindle Team used the opportunity of the ETHDenver 2022 Virtual BUIDLathon t
 - Feb 20, 2022: Start implementation for [Voting Card Swapper](#voting-card-swapper)
 - Mar 6, 2022: Start implementation for [Zine Connect](#zine-connect)
 - Mar 13, 2022: Start implementation for [Story Voting](#story-voting)
-- Mar 14, 2022: Start combination of all of the above tools into one common repository
+- Mar 14, 2022: Start combining all of the above tools into one common repository
 - Mar 18, 2022: Splitting Front-End from Back-End (only Front-End is now public, if you're interested in the Back-End code, feel free to contact us!)
 - Mar 19, 2022: Implementation of [Tipping Authors](#tipping-authors)
 - Mar 20, 2022: Finalization
@@ -58,6 +58,14 @@ Writers can conduct a poll to determine the progression of the story. This is do
 Readers and writers can use the BUIDL's Voting Card Swapper to swap YARN for Voting Cards or the other way around. The swap is done using Atomic Transfers, where one transaction is signed by the Spindle Back-End and the other transactions are signed by the user using Wallet Connect.
 
 <img src="https://user-images.githubusercontent.com/29375437/159132844-190aa1a0-bdc6-436e-8c5d-68f979d3af90.png" alt="Swap MyAlgo Connect" height="400"/>  <img src="https://user-images.githubusercontent.com/29375437/159133081-2eab9442-e293-4483-adbb-e48e782e0d67.png" alt="Swap Pera Connect" height="400"/>
+
+<br />
+
+### Tipping Authors
+
+Using Wallet Connect readers can tip YARN to their favorite stories and to help promote a continuous flow of exciting content.
+
+<img src="https://user-images.githubusercontent.com/29375437/159136838-fe70ceeb-750a-45d9-9f58-cbc43476f9af.png" alt="Tipping Authors" height="400" />
 
 <br />
 
