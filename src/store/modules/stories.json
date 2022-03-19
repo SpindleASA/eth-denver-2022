@@ -75,6 +75,7 @@
     "description": "Miranda is desperate to save her sick mother, but to do so she must find a rare Sunstone. In her search to find such a stone she finds other forms of forbidden magic. Why were they banned from the land of Alegra?",
     "source": "https://raw.githubusercontent.com/Rach-toomuchgoogling/Witch-of-Stone/main/",
     "image": "/img/witch_of_stone.jpg",
+    "wallet": "3SJXP5JJWNC3V7OD2R5NGV55ATBWCWXVYA27HV2SXLWB6MNITIJP3VOJRI",
     "chapters": [
       { "name": "Chapter One", "id": "Chapter one.md" },
       { "name": "Chapter Two", "id": "Chapter Two.md" },
