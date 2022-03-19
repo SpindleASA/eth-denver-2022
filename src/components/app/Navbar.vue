@@ -56,6 +56,10 @@ export default {
           to: { path: '/warp-and-weft' },
           name: this.$t('views.zine.title'),
         },
+        {
+          to: { path: '/spindle-asa' },
+          name: this.$t('views.token.title'),
+        },
       ],
     };
   },

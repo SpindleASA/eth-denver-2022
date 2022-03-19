@@ -9,8 +9,8 @@
     <slot />
 
     <template #modal-footer="{ ok, cancel }">
-      <b-button variant="outline-primary" @click="cancel">{{ $t('misc.cancel') }}</b-button>
-      <b-button variant="primary" @click="ok">{{ $t('misc.ok') }}</b-button>
+      <b-button v-if="hasCancel" variant="outline-primary" @click="cancel">{{ $t('misc.cancel') }}</b-button>
+      <b-button v-if="hasOK" variant="primary" @click="ok">{{ $t('misc.ok') }}</b-button>
     </template>
   </b-modal>
 </template>
@@ -23,6 +23,10 @@ export default {
       type: String,
     },
     hasCancel: {
+      type: Boolean,
+      default: true,
+    },
+    hasOK: {
       type: Boolean,
       default: true,
     },

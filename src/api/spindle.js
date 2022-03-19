@@ -25,7 +25,7 @@ const post = async (url, data, options) => {
 };
 
 const get = async (url, options) => {
-  url = `${base_url}/api/asset-info`;
+  url = `${base_url}${url}`;
   let response;
   try {
     response = (await axios.get(url, options)).data;
