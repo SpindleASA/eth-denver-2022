@@ -19,6 +19,13 @@ const voting = {
       }
       return response;
     },
+    async getTippingTransactions(_, data) {
+      let response = await api.spindle.post('/api/tip', data);
+      if (response.success) {
+        response.data = response.data.map((txn) => new Uint8Array(Object.values(txn)));
+      }
+      return response;
+    },
     async sendVotingTransactions(_, data) {
       return api.spindle.post('/api/send-transactions', { signedTxns: data });
     },

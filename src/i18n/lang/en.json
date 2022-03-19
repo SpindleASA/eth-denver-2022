@@ -95,6 +95,10 @@
       "connect": "Connect your wallet to vote",
       "vote": "Vote {option}"
     },
+    "tipping": {
+      "tip": "Tip YARN",
+      "tipYarn": "Amount of YARN:"
+    },
     "cards": {
       "buy": "Buy",
       "sell": "Sell",
