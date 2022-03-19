@@ -40,6 +40,9 @@
         <div class="sp-markdown-wrapper">
           <VueMarkdown v-if="computedMarkdown">{{ computedMarkdown }}</VueMarkdown>
         </div>
+        <div class="d-flex justify-content-center">
+          <TipButton :storyWallet="currentStory.wallet" :story="currentStory.name" />
+        </div>
         <Voting v-if="currentChapter.voting" v-bind="currentChapter.voting" :wallet="currentStory.wallet" />
         <div class="mt-4 d-flex">
           <b-button
@@ -77,12 +80,14 @@
 import { mapState } from 'vuex';
 import VueMarkdown from 'vue-markdown';
 import Voting from '@/components/voting/Voting';
+import TipButton from '@/components/tipping/TipButton';
 
 export default {
   name: 'StoryView',
   components: {
     VueMarkdown,
     Voting,
+    TipButton,
   },
   metaInfo() {
     if (!this.currentStory) {
@@ -103,7 +108,8 @@ export default {
     }),
     computedMarkdown() {
       if (!this.markdown) return '';
-      const markdown = this.markdown.replace(/(!\[[^\]]+\]\()/, `$1${this.currentStory.source}/`);
+      let markdown = this.markdown.replace(/(!\[[^\]]+\]\((?!http))/, `$1${this.currentStory.source}/`);
+      markdown = markdown.replace(/(src="(?!http))/, `$1${this.currentStory.source}/`);
       return markdown;
     },
     chapterIndex() {
