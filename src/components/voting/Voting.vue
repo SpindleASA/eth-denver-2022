@@ -13,17 +13,6 @@
       <VoteSelection :storyWallet="wallet" :votingClosed="votingClosed" @voted="onVoted" />
     </div>
 
-    <div class="d-flex align-items-center">
-      <h5 class="my-3">
-        <span>{{ storyShortWallet[0] }}</span>
-        <sp-icon height="20px" />
-        <span>{{ storyShortWallet[1] }}</span>
-      </h5>
-      <b-button variant="link" class="d-flex align-items-center text-dark" @click="copyWallet">
-        <b-icon height="16px" icon="clipboard" />
-      </b-button>
-    </div>
-
     <div class="p-3">
       <h6 v-html="$t('components.voting.start', { start: startDateString })" />
       <h6 v-html="$t('components.voting.end', { end: endDateString })" />
@@ -34,7 +23,6 @@
 <script>
 import VotePercentages from '@/components/voting/VotePercentages';
 import VoteSelection from '@/components/voting/VoteSelection';
-import utils from '@/utils/algorand';
 
 export default {
   name: 'sp-voting',
@@ -70,9 +58,6 @@ export default {
     };
   },
   computed: {
-    storyShortWallet() {
-      return utils.getShortWallet(this.wallet);
-    },
     votingClosed() {
       if (!this.endDate) {
         return false;

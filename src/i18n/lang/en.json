@@ -97,7 +97,8 @@
     },
     "tipping": {
       "tip": "Tip YARN",
-      "tipYarn": "Amount of YARN:"
+      "tipYarn": "Amount of YARN:",
+      "connect": "Connect your wallet to tip the author"
     },
     "cards": {
       "buy": "Buy",

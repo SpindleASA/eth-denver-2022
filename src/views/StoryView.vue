@@ -40,8 +40,19 @@
         <div class="sp-markdown-wrapper">
           <VueMarkdown v-if="computedMarkdown">{{ computedMarkdown }}</VueMarkdown>
         </div>
+        <div class="d-flex align-items-center justify-content-center my-4">
+          <h5 class="my-3">
+            <span>{{ storyShortWallet[0] }}</span>
+            <sp-icon height="20px" />
+            <span>{{ storyShortWallet[1] }}</span>
+          </h5>
+          <b-button variant="link" class="d-flex align-items-center text-dark" @click="copyWallet">
+            <b-icon height="16px" icon="clipboard" />
+          </b-button>
+        </div>
         <div class="d-flex justify-content-center">
-          <TipButton :storyWallet="currentStory.wallet" :story="currentStory.name" />
+          <TipButton v-if="wallet" :storyWallet="currentStory.wallet" :story="currentStory.name" />
+          <h6 v-else>{{ $t('components.tipping.connect') }}</h6>
         </div>
         <Voting v-if="currentChapter.voting" v-bind="currentChapter.voting" :wallet="currentStory.wallet" />
         <div class="mt-4 d-flex">
@@ -81,6 +92,7 @@ import { mapState } from 'vuex';
 import VueMarkdown from 'vue-markdown';
 import Voting from '@/components/voting/Voting';
 import TipButton from '@/components/tipping/TipButton';
+import utils from '@/utils/algorand';
 
 export default {
   name: 'StoryView',
@@ -105,6 +117,7 @@ export default {
   computed: {
     ...mapState({
       availableStories: (state) => state.stories.availableStories,
+      wallet: (state) => state.wallet.wallet,
     }),
     computedMarkdown() {
       if (!this.markdown) return '';
@@ -123,6 +136,9 @@ export default {
     nextChapter() {
       if (this.currentStory.chapters.length <= this.chapterIndex + 1) return;
       return `/stories/${this.currentStory.id}/${this.currentStory.chapters[this.chapterIndex + 1].id}`;
+    },
+    storyShortWallet() {
+      return utils.getShortWallet(this.currentStory.wallet);
     },
   },
   beforeRouteEnter(to, from, next) {
