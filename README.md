@@ -1,6 +1,6 @@
 # SpindleASA BUIDL for eth-denver-2022
 
-![Spindle](public/img/logo.png)
+![Spindle](https://user-images.githubusercontent.com/29375437/159180074-bc4f46df-4c9f-4e6b-b3f5-eae1a861651f.png)
 
 ## About Spindle
 
@@ -49,37 +49,41 @@ The Spindle BUIDL offers a platform for creative content. The stories that are i
 
 Writers can conduct a poll to determine the progression of the story. This is done using Voting Cards. These are NFTs minted on the Algorand Blockchain with an voting option (A, B, C or D) and a designated YARN value. To vote, readers can use the Wallet Connect feature of this BUIDL to send a Voting Card. The current voting results are read from the Algorand Blockchain.
 
-<img src="https://user-images.githubusercontent.com/29375437/159131991-9279fa68-a9a9-4268-9fc3-5028e68dd515.png" alt="Story Voting" height="600" />
+![Story Voting](https://user-images.githubusercontent.com/29375437/159131991-9279fa68-a9a9-4268-9fc3-5028e68dd515.png)
 
 <br />
 
 ### Voting Card Swapper
 
-Readers and writers can use the BUIDL's Voting Card Swapper to swap YARN for Voting Cards or the other way around. The swap is done using Atomic Transfers, where one transaction is signed by the Spindle Back-End and the other transactions are signed by the user using Wallet Connect.
+Readers and writers can use the BUIDL's Voting Card Swapper to swap YARN for Voting Cards or the other way around. 
 
-<img src="https://user-images.githubusercontent.com/29375437/159132844-190aa1a0-bdc6-436e-8c5d-68f979d3af90.png" alt="Swap MyAlgo Connect" height="400"/>  <img src="https://user-images.githubusercontent.com/29375437/159133081-2eab9442-e293-4483-adbb-e48e782e0d67.png" alt="Swap Pera Connect" height="400"/>
+![Swao MyAlgo Connect](https://user-images.githubusercontent.com/29375437/159132844-190aa1a0-bdc6-436e-8c5d-68f979d3af90.png)
+
+The swap is done using Atomic Transfers, where one transaction is signed by the Spindle Back-End and the other transactions are signed by the user using Wallet Connect.
+
+![Swap Pera Connect](https://user-images.githubusercontent.com/29375437/159133081-2eab9442-e293-4483-adbb-e48e782e0d67.png)
 
 <br />
 
 ### Tipping Authors
 
-Using Wallet Connect readers can tip YARN to their favorite stories and to help promote a continuous flow of exciting content.
+Using Wallet Connect functionality readers can easily tip YARN to their favorite stories to help promote a continuous flow of exciting content.
 
-<img src="https://user-images.githubusercontent.com/29375437/159136838-fe70ceeb-750a-45d9-9f58-cbc43476f9af.png" alt="Tipping Authors" height="400" />
+![Tipping Authors](https://user-images.githubusercontent.com/29375437/159136838-fe70ceeb-750a-45d9-9f58-cbc43476f9af.png)
 
 <br />
 
 ### Zine Connect
 Warp & Weft is a digital zine publication with ASA news as well as story content spun by the Spindle community. The Zine Connect of this BUIDL grants access to the PDF publication for holders of NFTs associated to a zine.
 
-<img src="https://user-images.githubusercontent.com/29375437/159133121-7c0d822c-fe80-490a-b1e3-37e840650d4c.png" alt="Zine Connect" height="400" />
+![Zine Connect](https://user-images.githubusercontent.com/29375437/159133121-7c0d822c-fe80-490a-b1e3-37e840650d4c.png)
 
 <br />
 
 ### Liquidity Rewards Distributor
 To incentivize community members to provide liquidity for YARN, Spindle provides its own rewards program. The automation for liquidity rewards distribution is part of this BUIDL. 
 
-![image](https://user-images.githubusercontent.com/29375437/159130901-b81be6ed-12ed-4bbf-bcc0-67b2916b166b.png)
+![Liquidity Distribution](https://user-images.githubusercontent.com/29375437/159130901-b81be6ed-12ed-4bbf-bcc0-67b2916b166b.png)
 
 All current holders of YARN-ALGO Tinyman LP tokens and their holding history is automatically read from the Algorand Blockchain. Using Wallet Connection for MyAlgo Wallet and Pera Wallet, the Spindle team can easily distribute the rewards.
 
