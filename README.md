@@ -99,7 +99,7 @@ Spindle is not done with the end of this BUIDLathon. We plan to offer different 
 
 [Github @NanaLean](https://github.com/NanaLean), **NanaLean#6545** (Discord) - Lead Developer
 
-[Github @continuitydrift](https://github.com/continuitydrift), **continuitydrift#1316**, (Discord) - Writer and Multimedia Master
+[Github @continuitydrift](https://github.com/continuitydrift), **continuitydrift#1316** (Discord) - Writer and Multimedia Master
 
 [Github @Pteratato](https://github.com/Pteratato), **Pteratato#6575** (Discord) - Writer, Co-Publisher of Warp & Weft and Creator of Spindle
 
