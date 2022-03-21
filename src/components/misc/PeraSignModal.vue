@@ -66,9 +66,9 @@ export default {
 
       Object.assign(this.connector._clientMeta, {
         description: 'Spindle ASA',
-        icons: ['https://raw.githubusercontent.com/tinymanorg/asa-list/main/YARN-544217506/icon.png'],
+        icons: ['https://spindle-buidl.herokuapp.com/img/icon.png'],
         name: 'Spindle ASA',
-        url: 'https://www.spindle-asa.com',
+        url: 'https://www.spindle-buidl.herokuapp.com',
       });
 
       if (!this.connector.connected) {
