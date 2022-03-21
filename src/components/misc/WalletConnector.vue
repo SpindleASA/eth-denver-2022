@@ -99,9 +99,9 @@ export default {
 
       Object.assign(this.connector._clientMeta, {
         description: 'Spindle ASA',
-        icons: ['https://spindle-asa.herokuapp.com/img/icon.png'],
+        icons: ['https://spindle-buidl.herokuapp.com/img/icon.png'],
         name: 'Spindle ASA',
-        url: 'https://www.spindle-asa.herokuapp.com',
+        url: 'https://www.spindle-buidl.herokuapp.com',
       });
     },
     async connectMyAlgoWallet() {
