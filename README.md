@@ -103,7 +103,7 @@ Spindle is not done with the end of this BUIDLathon. We plan to offer different 
 
 [Github @Pteratato](https://github.com/Pteratato), **Pteratato#6575** (Discord) - Writer, Co-Publisher of Warp & Weft and Creator of Spindle
 
-[Github @Rach](https://github.com/Rach-toomuchgoogling), **rach#2348** (Discord) - Writer and Co-Publisher of Warp & Weft
+[Github @Rach-toomuchgoogling](https://github.com/Rach-toomuchgoogling), **rach#2348** (Discord) - Writer and Co-Publisher of Warp & Weft
 
 <br />
 <br />
