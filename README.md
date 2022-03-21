@@ -28,7 +28,7 @@ The Spindle Team used the opportunity of the ETHDenver 2022 Virtual BUIDLathon t
 - Mar 6, 2022: Start implementation for [Zine Connect](#zine-connect)
 - Mar 13, 2022: Start implementation for [Story Voting](#story-voting)
 - Mar 14, 2022: Start combining all of the above tools into one common repository
-- Mar 18, 2022: Splitting Front-End from Back-End (only Front-End is now public, if you're interested in the Back-End code, feel free to contact us!)
+- Mar 18, 2022: Splitting Front-End (this repo) from [Back-End](https://github.com/SpindleASA/spindle-backend)
 - Mar 19, 2022: Implementation of [Tipping Authors](#tipping-authors)
 - Mar 20, 2022: Finalization
 
@@ -95,13 +95,15 @@ Spindle is not done with the end of this BUIDLathon. We plan to offer different 
 <br />
 
 ### Contact
-[Github @NanaLean](https://github.com/NanaLean) - Lead Developer
+**Email:** contact@spindle-asa.com
 
-[Github @continuitydrift](https://github.com/continuitydrift) - Writer and Multimedia Master
+[Github @NanaLean](https://github.com/NanaLean), **NanaLean#6545** (Discord) - Lead Developer
 
-[Github @Pteratato](https://github.com/Pteratato) - Writer, Co-Publisher of Warp & Weft and Creator of Spindle
+[Github @continuitydrift](https://github.com/continuitydrift), **continuitydrift#1316**, (Discord) - Writer and Multimedia Master
 
-[Github @Rach](https://github.com/Rach-toomuchgoogling) - Writer and Co-Publisher of Warp & Weft
+[Github @Pteratato](https://github.com/Pteratato), **Pteratato#6575** (Discord) - Writer, Co-Publisher of Warp & Weft and Creator of Spindle
+
+[Github @Rach](https://github.com/Rach-toomuchgoogling), **rach#2348** (Discord) - Writer and Co-Publisher of Warp & Weft
 
 <br />
 <br />
